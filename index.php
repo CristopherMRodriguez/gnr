@@ -15,10 +15,10 @@
     <link rel="icon" href="gnr-art/slash.jpg" sizes="32x32">
     </head>
 
-    <body class="bg-dark">
-    
-        <div class="banner-div text-center">        
-            <img src="gnr-art/108774.jpg" alt="Responsive image">
+    <body>
+
+        <div class="banner-div text-center">    
+            <img class="img-fluid" src="gnr-art/108774.jpg" alt="Responsive image">
         </div>
 
         <div class="container text-muted">
@@ -87,63 +87,73 @@
                 <a class="nav-link" href="#duff">Duff McKagan</a>
             </nav>
 
-            <iframe 
-                class="axl-vid" 
-                id="axl"
-                width="560" 
-                height="315" 
-                src="https://www.youtube.com/embed/Gwd0O9Ca6ts" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen>
-            </iframe>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe 
+                    class="axl-vid" 
+                    id="axl"
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/Gwd0O9Ca6ts" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
 
-            <iframe 
-                class="slash-vid"
-                id="slash"
-                width="560" 
-                height="315" 
-                src="https://www.youtube.com/embed/cCIULTlTpII" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen>
-            </iframe>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe 
+                    class="slash-vid"
+                    id="slash"
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/cCIULTlTpII" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
 
-            <iframe 
-                class="steven-vid"
-                id="steven"
-                width="560" 
-                height="315" 
-                src="https://www.youtube.com/embed/fidY49ad4QY" 
-                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen>
-            </iframe>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe 
+                    class="steven-vid"
+                    id="steven"
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/fidY49ad4QY" 
+                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
 
-            <iframe 
-                class="izzy-vid"
-                id="izzy"
-                width="560" 
-                height="315" 
-                src="https://www.youtube.com/embed/lFRJZU9Of9s?start=40" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen>
-            </iframe>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe 
+                    class="izzy-vid"
+                    id="izzy"
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/lFRJZU9Of9s?start=40" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
 
-            <iframe 
-                class="duff-vid"
-                id="duff"
-                width="560" 
-                height="315" src="https://www.youtube.com/embed/gj4ingFOZgM" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen>
-            </iframe>
-
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe 
+                    class="duff-vid"
+                    id="duff"
+                    width="560" 
+                    height="315" src="https://www.youtube.com/embed/gj4ingFOZgM" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+            
         </div>
 
         <div>
-            <img class="img-end" src="gnr-art/41335.jpg"
+            <img class="img-end img-fluid" src="gnr-art/41335.jpg">
         </div>
 
    
